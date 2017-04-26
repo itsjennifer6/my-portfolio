@@ -1,0 +1,198 @@
+/* Color Scheme: 108 48 72
+	#6C3048
+	#B8517A
+	#6B5A5B
+	#B89A9C
+	#949494
+	#6B6B6B
+	#C7798D
+	
+	Fonts: T
+*/
+
+body {
+		font-size: 1em; 
+		font-weight: normal; 
+		font-family: Palatino, Georgia, Serif;
+		color: #B89A9C; 
+		text-align: left; 
+		background-color: #6C3048; 
+		
+		margin-left: 10%; 
+		margin-right: 10%;
+		border: 2px dashed black; 
+		padding-left: 1cm;
+		padding-right: 1cm; 
+		padding-bottom: 1cm; 
+		margin-top: 1cm; 
+		margin-bottom: 0.5cm; 
+		width: 80%; 
+		min-width: 720px;
+		margin: 0 auto;
+		
+		 background-image: url('../images/stars.jpg'); 
+	}
+	
+.a {
+	background-color: #6C3048; 
+}
+
+
+ a { 
+    color: black;
+    background-color: pink;
+ }
+ 
+ a:hover, a:focus { 
+    color: pink;
+    background-color: black;
+}
+  
+a:visited {
+	color: #B8517A; 
+}
+		
+
+		
+h1 {
+		font-size: 4em; 
+		font-weight: bold;
+		color: #C7798D; 
+		font-family: Rockwell, Verdana, Tahoma, Sans-Serif;
+		text-align: center; 
+}
+		
+h2 {
+		font-size: 3em; 
+		font-family: Rockwell, Verdana, Tahoma, Sans-Serif;
+		color: #C7798D; 
+		border: 1px dotted black;
+}
+		
+div{
+		font-family: Palatino, Georgia, Serif;
+		padding: 0.5cm; 
+		margin: auto; 
+		margin-bottom: 1cm; 
+		width: 10em; 
+		font-size: 20px; 
+}
+
+nav {
+	font-size: 20px; 
+}
+
+#skipnav {
+	width: 10em; 
+	text-align: center; 
+	margin: auto; 
+	margin-bottom: 1cm; 
+	margin-top: 5cm; 
+	font-size: 25px; 
+	border: none; 
+}
+
+div#skipnav {
+	position: absolute;
+    top: 5px; 
+    left: 3cm; 	
+ }
+ 
+ div.info { 
+    width: 40%;
+    font-size: 1.2em;
+	margin: auto; 
+  }
+
+.info{
+	width: 40%; 
+	font-size: 18px; 
+	padding-left: 2cm; 
+	padding-right: 1cm; 
+}
+		
+p {
+		font-family: Times New Roman;
+		font-size: 20px;
+		background-color: #C7798D;
+		color:black; 
+}
+
+main{
+	background-color: #C7798D;
+	color: black;
+	clear:left;
+}
+
+#overview {
+	font-style: oblique; 
+	font-size: 25px; 
+	clear: both; 
+
+}
+
+p#overview:first-letter {
+	font-family: Warnock; 
+	font-size: 40px; 
+}
+
+.temp {
+	font-style: italic;
+}
+
+li {
+	color: pink; 
+}
+
+#table {
+	border: 1px solid black; 
+	text-align: center; 
+	margin: auto;
+	margin-top: 1cm; 
+	font-size: 20px; 
+	padding-left: 2cm; 
+	padding-right: 1cm; 
+}
+
+#tablecap {
+	font-size: 30px;  
+	margin-bottom: 0.5cm; 
+}
+
+#thead {
+	font-size: 20px; 
+	font-style: italic; 
+	border: 1px solid black; 
+}
+
+/* Navigation Menu Styles */
+
+nav ul { 
+  list-style-type: none;
+}
+
+.ulnav {
+	float: left; 
+	margin-right:0.4em; 
+}
+
+nav ul li {
+	display: inline;
+
+}
+
+nav ul li a { 
+  padding: 0.25em 1em;
+  text-decoration: none; /* no underline */
+  background-color: #EBF5FF; /* pale bluish white */
+  color: #4312AE; /* dark blue */
+  border: 2px solid black;
+  border-top-left-radius: 1em 1em; /* rounded corner! */
+  border-top-right-radius: 1em 1em; /* another rounded corner! */	 
+}	
+
+nav ul li a:hover, nav ul li a:focus { 
+  color: black; 
+  background-color: white; 
+  font-weight: bold;
+}
